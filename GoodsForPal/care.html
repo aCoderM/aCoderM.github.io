@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GoodsForPal</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="a.css" type="text/css">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
+
+
+
+</head>
+
+<body>
+
+
+  <div class="header">
+    <div class="sides">
+      <a href="home.html" class="logo">GoodsForPal</a>
+    </div>
+    <div class="sides">
+      <div class="topnav">
+        <a href="home.html">Ana Sayfa</a>
+        <a href="feed.html">Beslenme</a>
+        <a href="train.html">Eğitim</a>
+        <a class="active" href="#care">Bakım</a>
+        <a href="act.html">Davranışlar</a>
+      </div></a>
+    </div>
+    <div class="info">
+      <h4><a href="#category">GoodsForPal</a></h4>
+      <h1>For Your and Your Road Friend</h1>
+      <div class="meta">
+        <a href="#" target="_b" class="author"></a><br>
+        By <a href="https://github.com/acoderm" target="_b">Bugra Yayla</a> on Jan 1, 2024
+      </div>
+    </div>
+  </div>
+  <section class="content">
+    <h1>Atlarda Bakım ve Bakımda Dikkat Edilmesi Gerekenler</h1>
+    <p>Atların bakımı, sağlıklı ve mutlu bir hayat sürmeleri için oldukça önemlidir. İyi bir at bakımı genellikle aşağıdaki unsurları içerir.</p>
+ 
+    <br><br>
+
+    <!--  Birinici Satır -->
+    <div class="d-flex flex-row">
+      <div class="card mb-2" style="max-width: 600px; height: 150px; border-style: hidden;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="https://s3.amazonaws.com/static.organiclead.com/Site-d09487e4-44b0-4d29-bc68-27d499e341d6/shutterstock_691765981.png"
+              style="height: 150px; width: 200px;" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Veteriner Kontrolleri ve Aşılar</h5>
+              <p class="card-text"> Atların düzenli veteriner kontrollerine gitmeleri önemlidir. Veteriner, atın genel
+                sağlığını değerlendirir, gerekli aşıları yapar ve olası sağlık sorunlarını erken teşhis eder.
+                &ensp; <button type="button" class="btn btn-primary" style="background:darkgrey;" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal1"> Genişlet
+                </button></p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-2" style="max-width: 600px; height: 150px; border-style: hidden;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/horse_diet.png" style="height: 150px; width: 200px;" class="img-fluid rounded-start"
+              alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Sağlıklı Beslenme</h5>
+              <p class="card-text">Atların sağlıklı bir diyetle beslenmeleri, hayvanın enerji ihtiyaçlarını karşılar ve
+                genel sağlık durumunu destekler. Kaba yemler (saman, ot) ve konsantre yemler dengeli bir şekilde
+                verilmelidir.
+                &ensp; <button type="button" class="btn btn-primary" style="background:darkgrey;" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal2"> Genişlet
+                </button>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <br><br>
+
+    <!--  İkinci Satır -->
+    <div class="d-flex flex-row">
+      <div class="card mb-2" style="max-width: 600px; height: 150px; border-style: hidden;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="data:image/jpeg;base64,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"
+              style="height: 150px; width: 200px;" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Temiz Su</h5>
+              <p class="card-text"> Atların her zaman temiz ve taze suya erişimi olmalıdır. Su, sindirim süreçleri, cilt
+                sağlığı ve genel vücut fonksiyonları için hayati öneme sahiptir.
+                &ensp; <button type="button" class="btn btn-primary" style="background:darkgrey;" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal3"> Genişlet
+                </button>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 600px; height: 150px; border-style: hidden;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://alansfactoryoutlet.com/wp-content/uploads/2023/12/barn-hygiene-and-cleaning-tips.jpeg"
+              style="height: 150px; width: 200px;" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Temizlik ve Bakım</h5>
+              <p class="card-text">Ahır, çiftlik veya atın barındığı yer düzenli olarak temizlenmeli ve dezenfekte
+                edilmelidir... &ensp; <button type="button" class="btn btn-primary" style="background:darkgrey;"
+                  data-bs-toggle="modal" data-bs-target="#exampleModal4"> Genişlet
+                </button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <br><br>
+
+    <!-- Üçüncü Satır -->
+    <div class="d-flex flex-row">
+      <div class="card mb-3" style="max-width: 600px; height: 150px; border-style: hidden;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://www.horseandrideruk.com/wp-content/uploads/2020/06/WEB_rider-leading-horse-in-bridle.jpg"
+              style="height: 150px; width: 200px;" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Egzersiz ve Aktivite</h5>
+              <p class="card-text">Atlar düzenli egzersiz ve aktiviteye ihtiyaç duyarlar. Binicilik, serbest bırakılmış
+                alanlarda koşma veya at parkurları gibi aktivitelerle atın fiziksel ve zihinsel sağlığını desteklemek
+                önemlidir. &ensp; <button type="button" class="btn btn-primary" style="background:darkgrey;"
+                  data-bs-toggle="modal" data-bs-target="#exampleModal5"> Genişlet
+                </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 600px; height: 150px; border-style: hidden;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/christine-mendoza-HDDZOfX8pLA-unsplash.jpg" style="height: 150px; width: 200px;"
+              class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Sosyal İlişkiler</h5>
+              <p class="card-text"> Atlar sosyal hayvanlardır ve diğer atlarla etkileşimde bulunmaları önemlidir. Sosyal
+                ilişkiler, atın duygusal sağlığına olumlu katkıda bulunur.&ensp; <button type="button"
+                  class="btn btn-primary" style="background:darkgrey;" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal6"> Genişlet
+                </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <br><br>
+
+    <!--  Dördüncü Satır -->
+    <div class="d-flex flex-row">
+      <div class="card mb-3" style="max-width: 600px; height: 150px; border-style: hidden;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://www.malgretoutmedia.com/wp-content/uploads/2023/03/shutterstock_570622867-scaled-1.jpg"
+              style="height: 150px; width: 200px;" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Duygusal Refah</h5>
+              <p class="card-text"> Atların duygusal sağlığı için düzenli etkileşim, sevgi ve ilgi önemlidir. Sahibi
+                veya
+                bakıcısıyla olumlu bir bağ kurmaları, güven duygusunu artırır. &ensp; <button type="button"
+                  class="btn btn-primary" style="background:darkgrey;" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal7"> Genişlet
+                </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 600px; height: 150px; border-style: hidden;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://www.equestrianbusiness.net/wp-content/uploads/2023/03/worming.jpg"
+              style="height: 150px; width: 200px;" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Parazit Kontrolü</h5>
+              <p class="card-text">Atlar, iç ve dış parazitlere karşı düzenli olarak kontrol edilmeli ve gerekirse uygun
+                tedaviler uygulanmalıdır. &ensp; <button type="button" class="btn btn-primary"
+                  style="background:darkgrey;" data-bs-toggle="modal" data-bs-target="#exampleModal8"> Genişlet
+                </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section class="content">
+    <h1>Son Olarak...</h1>
+    <p> At bakımı, atların sağlığı ve refahı için çok önemlidir. Bu unsurların düzenli bir şekilde yerine getirilmesi,
+      atların uzun ve sağlıklı bir yaşam sürmelerini sağlar. Düzenli bakım, atın genel sağlığını izlemek ve sorunları
+      önlemek adına hayati öneme sahiptir. Her at bireyine göre farklılık gösterdiği için, bakım programı atın
+      özelliklerine ve ihtiyaçlarına göre özelleştirilmelidir.</p>
+  </section>
+
+
+
+  <div class="footer-basic">
+    <footer>
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="home.html">Ana Sayfa</a></li>
+        <li class="list-inline-item"><a href="feed.html">Beslenme</a></li>
+        <li class="list-inline-item"><a href="train.html">Eğitim</a></li>
+        <li class="list-inline-item"><a href="care.html">Bakım</a></li>
+        <li class="list-inline-item"><a href="act.html">Davranışlar</a></li>
+      </ul>
+      <p class="copyright">GoodsForPal © 2024</p>
+
+    </footer>
+
+  </div>
+
+  <br>
+
+
+  <!-- Modal 4 -->
+  <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel4">Temizlik ve Bakım</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Vitamin ve mineral ihtiyaçları, bireysel ata, tüketilen diyetin türüne ve atın tutulduğu çevre koşullarına
+            bağlı olarak büyük ölçüde değişebilir. Atların gereksinimleri insanlarla aynı değildir çünkü atların
+            bizimkinden farklı özel ihtiyaçları vardır.
+
+            Atların beslenme gereksinimlerini karşılamak için proteinler, yağlar ve karbonhidratlar gibi besinler
+            açısından zengin bir diyet tüketmeleri gerekir. Bu, optimum performans için gerekli enerjiye ve desteğe
+            sahip
+            olmalarını sağlar. Ek olarak kalsiyum, fosfor, magnezyum ve eser mineraller de dahil olmak üzere temel
+            vitamin
+            ve minerallere ihtiyaç duyarlar.
+
+            Bir atın beslenme durumunu düzenli olarak değerlendirmek, genel sağlık ve refahını korumak için çok
+            önemlidir.
+            At sahipleri, çeşitli gıda kaynaklarını içeren ve ek beslenme ihtiyaçlarını göz önünde bulunduran dengeli
+            bir
+            diyet sunarak, atlarının hak ettikleri bakım ve desteği almasını sağlayabilirler.
+
+            Atın bireysel ihtiyaçlarına ve koşullarına göre özel beslenme önerileri için daima bir veterinere veya at
+            beslenme uzmanına danışın.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal 5 -->
+  <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel5" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel5">Egzersiz ve Aktivite</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul> Atların düzenli egzersiz alması, fiziksel sağlıklarını korumak, zinde kalmak ve aşırı enerjiyi
+            yönlendirmek
+            için önemlidir.
+          </ul>
+          <ul> Binicilik, serbest bırakılmış alanlarda koşma veya at parkurları gibi çeşitli aktiviteler, atın zihinsel
+            sağlığını destekler.</ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- Modal 6 -->
+  <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel6" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel6">Sosyal İlişkiler</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Atlar sosyal hayvanlardır ve diğer atlarla etkileşimde bulunmaları, doğal davranışlarını teşvik eder ve
+            duygusal sağlıklarını olumlu yönde etkiler.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal 7 -->
+  <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel7" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel7">Duygusal Refah</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p> Atların duygusal sağlığı için düzenli etkileşim, sevgi ve ilgi önemlidir. Sahibi veya bakıcısıyla olumlu
+            bir
+            bağ kurmaları, güven duygusunu artırır.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Modal 8 -->
+  <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel8" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel8">Parazit Kontrolü</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul>Atlar, iç ve dış parazitlere karşı düzenli olarak kontrol edilmeli ve veterinerin önerdiği parazit önleme
+            ve
+            tedavi programına uyulmalıdır.</ul>
+          <ul> Parazitlerin kontrol altına alınması, atın sağlığını ve performansını olumlu yönde etkiler.</ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 1 -->
+  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel1">Veteriner Kontrolleri ve Aşılar</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul>Atların düzenli olarak veteriner kontrolüne gitmeleri sağlıklarının izlenmesi ve olası sağlık sorunlarının
+            erken teşhisi açısından önemlidir.</ul>
+          <ul>Veteriner, atın diş sağlığı, aşıları, parazit kontrolü ve genel sağlık durumu üzerinde değerlendirmeler
+            yapar.</ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal 2 -->
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel2">Sağlıklı Beslenme</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul> Atların sağlıklı bir diyetle beslenmeleri, kaba yemler (saman, ot, yonca) ve konsantre yemlerin (tahıl
+            karışımları, özel yemler) dengeli bir şekilde verilmesini içerir.
+            Atlarınız için tatlı su tüketimine öncelik vermeyi unutmayın.</ul>
+          <ul>Yem programı, atın yaşına, aktivite seviyesine, ırkına ve genel sağlık durumuna göre uyarlanmalıdır.</ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- Modal 3 -->
+  <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel3">Temiz Su</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p> Temiz su, atlarda sağlıklı bir yaşam sürdürmek ve optimal performansı elde etmek açısından temel bir
+            unsurdur. İşte temiz suyun önemi:</p>
+          <ul><strong>Hidrasyon:</strong>
+
+            Atların vücut ağırlığının büyük bir kısmı sudan oluşur. Su, atların vücut fonksiyonlarını düzenlemeleri,
+            sindirim sistemini sağlıklı bir şekilde çalıştırmaları ve genel olarak hidrasyonu korumaları için hayati
+            öneme sahiptir.</ul>
+          <ul><strong>Sindirim Sistemi:</strong>
+
+            Atların sindirim sistemi, lif içeren kaba yemleri etkili bir şekilde sindirebilmek için yeterli miktarda
+            suya
+            ihtiyaç duyar. Su, özellikle kaba yemlerin fermantasyonu sırasında sindirim sürecine katkıda bulunur.
+          </ul>
+
+          <ul><strong>Metabolizma ve Enerji Üretimi:</strong>
+
+            Su, metabolizma süreçlerinde önemli bir rol oynar ve atların vücutlarında enerji üretimine katkıda bulunur.
+            Hücresel işlevler, besin maddelerinin taşınması ve atların enerji ihtiyaçlarının karşılanması için su
+            gereklidir.
+          </ul>
+
+
+          <ul> <strong>Isı Denge:</strong>
+            Atlar, terleme yoluyla vücut ısısını düzenlerler. Sıcak hava koşullarında veya yoğun egzersiz sırasında
+            atlar
+            daha fazla su tüketirler. Temiz su, atların terleme sürecini destekler ve vücut sıcaklıklarını düzenler.
+          </ul>
+
+
+          <ul><strong>Bağışıklık Sistemi:</strong>
+            Temiz su, atların bağışıklık sistemini destekler. Bağışıklık sistemi, vücudu hastalıklara ve
+            enfeksiyonlara
+            karşı korur. Yeterli su alımı, atların bağışıklık sistemini güçlendirir.</ul>
+          <ul><strong>Organ Fonksiyonları:</strong>
+
+            Su, organların düzgün çalışması için gereklidir. Böbrekler, karaciğer ve diğer iç organlar, suyun
+            varlığıyla
+            vücuttaki atıkları filtreler ve atarlar. Bu, atın genel sağlığı ve organ fonksiyonları için önemlidir.
+          </ul>
+
+
+          <ul><strong> Kolik Riski Azaltma:</strong>
+
+            Yeterli su alımı, atların kolik gibi sindirim sistemi problemlerine karşı daha dirençli olmalarına
+            yardımcı
+            olabilir. Kolik, atlarda ciddi bir sağlık sorunu olabilir ve su eksikliği bu riski artırabilir.
+          </ul>
+
+          <ul><strong>Zehirlenme Riskini Azaltma:</strong>
+
+            Temiz su, toksinlere veya kirli su kaynaklarına maruz kalmadan atların içme ihtiyacını karşılamalarını
+            sağlar.Kirli su, atların sindirim sistemi ve genel sağlığı üzerinde olumsuz etkiler yapabilir.</ul>
+
+          <p>Bu nedenlerle, atlara düzenli ve temiz su temin edilmesi, genel sağlıkları, enerji seviyeleri ve
+            performansları için kritik bir faktördür.</p>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+
+
+
+
+
+</body>
+
+</html>
